@@ -1,0 +1,195 @@
+
+<!-- head - Googlefonts link -->
+
+<div id="outside">
+<form id="survey-form" action="/my-handling-form-page" method="post">
+  <h1 id="title">Application To Be My Best Friend</h1>
+  <p id="description"><b>Note:</b> Due prior to October 27th. Incomplete forms will not be accepted</p>
+  
+  <!-- ------------------Personal Details---------------------------- -->
+  <fieldset>
+    <!-- groups of widgets that share the same purpose, for styling and semantic purposes -->
+    <legend>Personal Details</legend>
+    <!-- formally describes the purpose of the fieldset it is included inside. -->
+    <div>
+      <label id="name-label" for="name">Name:</label>
+      <input type="text" required id="name" name="user_name" placeholder="Enter name here">   </div>
+    <div>
+      <label for="address-label">Address:</label>
+      <input type="Address" id="address" name="Address" placeholder="Enter address here">   </div>
+      <div>
+        <label for="city-label">City:</label>
+        <input type="City" id="City" name="City" placeholder="Enter City here">   </div>
+    <div>
+    
+              <label for="State">Select State or US Territory Below:</label>
+              <select id="dropdown">
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District Of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+                <option value="AS">American Samoa</option>
+<option value="GU">Guam</option>
+<option value="MP">Northern Mariana Islands</option>
+<option value="PR">Puerto Rico</option>
+<option value="UM">United States Minor Outlying Islands</option>
+<option value="VI">Virgin Islands</option>
+          </select>
+          <div>
+      <label id="email-label" for="Email">Email:</label>
+      <input type="email" required id="email" name="user_email" placeholder="Enter email here">   </div>
+    <div>
+      <label id="number-label" for="phone">Phone Number:</label>
+      <input type="number" id="number" name="user_name" placeholder="Enter phone number here">  </div>
+    <div>
+      <label id="iq-label" for="iq">IQ:</label>
+      <input type="number" id="iq" name="iq" placeholder="Enter IQ here">   </div>
+
+    <!-- ------------------Radio Buttons-------------------------------- -->
+    <div>
+        <label for="Siblings">Do You Have Siblings?</label>
+        <p>
+          <input type="radio" name="Siblings" value="Yes" checked> Yes<br>
+          <input type="radio" name="Siblings" value="No"> No<br>
+        </p>
+      </div>
+    <label for="date-label">Your Birthday:</label>
+    <input type="date" name="bday">
+  
+  </fieldset>
+  
+
+   <!-- Favorite Color-->
+  <fieldset>
+    <legend>Application Portion</legend>
+    <div>
+    <p><label for="color"> What Is Your Favorite Color?</label>
+        <input id="color" type="color"></p> </div>
+        <div>
+            <label for="ice cream">Favorite Ice Cream?</label>
+            <select name="ice cream" id="ice cream">
+                <option value=""> Choose a Flavor</option>
+                <option value="Choc">Chocolate</option>
+                <option value="van">Vanilla</option>
+                <option value="straw">Strawberry</option>
+                <option value="cook">Cookies and Cream</option>
+        
+            </select>
+        </div>
+           <p> <label for="Season">What Is Your Favorite Season?</label>
+            <input type="radio" name="Season" id="Season">
+            <label for="Winter">Winter</label>
+            <input type="radio" name="Season" id="Winter">
+            <label for="Spring">Spring</label>
+            <input type="radio" name="Season" id="Spring">
+            <label for="Summer">Summer</label>
+            <input type="radio" name="Season" id="Summer">
+            <label for="Fall">Fall</label>
+            <input type="radio" name="Season" id="Fall">
+<!-- ------------------Checkboxes-------------------------------- -->
+
+    <div> <p>
+    <label for="hobbies">Check All That Apply</label></p>
+    <p>
+      <input type="checkbox" name="dance" value="dance"> I like to dance<br>
+      <input type="checkbox" name="sing" value="sing"> I like to sing<br>
+      <input type="checkbox" name="drive" value="drive"> I like to drive<br>
+      <input type="checkbox" name="cook" value="cook" checked> I like to cook<br>
+      <input type="checkbox" name="movies" value="movies" checked> I like to watch movies<br>
+      <input type="checkbox" name="skate" value="skate" checked>  I like to rollerskate<br>
+    </p>
+
+</div>
+  
+  <!-- -----------------Dropdown menus--------------------------------- -->
+  
+ 
+    <div>
+      <label for="concert">Who Would You Like To See Live?:</label>
+      <select id="dropdown">
+  <option value="MJ">Michael Jackson</option>
+  <option value="B">Beyoncé</option>
+  <option value="BS">Britney Spears</option>
+  <option value="MC">Mariah Carey</option>
+  </select>
+
+      <label for="energy">Energy Level:</label>
+      <select id="dropdown2">
+  <option value="LE">Low Energy</option>
+  <option value="HE">High Energy</option>
+  <option value="Both"> Both</option>  
+  </select>
+    
+
+
+  </fieldset>
+
+  <!-- --------------------Text Areas------------------------------ -->
+  
+  <fieldset>
+    <legend>Essay Section</legend>
+    <div>
+      <label for="msg"></label>
+      <p> In 50 Words Or More, Explain Why You Want To Be My Best Friend:</p>
+      <textarea id="msg" name="user_message" rows="4" cols="50" placeholder="Enter Text Here"></textarea>   </div>
+    <div>
+      <label for="msg">Please Upload The Contact Details Of 2 Friends For References:</label><br>
+      <textarea id="msg2" name="user_message" rows="4" cols="50" placeholder="Enter Text Here"></textarea>   </div>
+    <p>Upload The Last Meme In Your Camera Roll:
+      <button>Attach Files</button></p>
+  </fieldset>
+
+  <div id="submitbutton">
+    <button type="submit" id="submit">Send your application</button>   </div>
+
+</form>
+  </div>
+
+<!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation -->
